@@ -118,3 +118,12 @@ p{
   margin: 30px auto;
 
   }
+
+ @keyframes moja_animacja
+  {
+    0% { background-color:white; width:450px; color:red; }
+    25% { background-color:gold; }
+    50% { background-color:red; color:blue; }
+    75% { background-color:green; width:300px; }
+    100% { background-color:white; width:450px; }
+  }
